@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "99989429446",
+    "project_id": "bittersweetrecipeapp",
+    "storage_bucket": "bittersweetrecipeapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99989429446:android:fd507319ba7726f3180bc7",
+        "android_client_info": {
+          "package_name": "com.example.my_first_flutter_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99989429446-jubjqersitr69o669pdm11uuhsgefag2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZslWO9s7MLbXfVT8PJpRFYMNwFpVvwMQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99989429446-jubjqersitr69o669pdm11uuhsgefag2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
