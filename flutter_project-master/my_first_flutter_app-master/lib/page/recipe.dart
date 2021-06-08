@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:my_first_flutter_app/components/manor_widget.dart';
 import 'package:my_first_flutter_app/repository/explain_repository.dart';
+import 'package:my_first_flutter_app/page/home.dart';
 
 class Recipeview extends StatefulWidget {
   Map<String, String> data;
@@ -139,6 +140,7 @@ class _RecipeviewState extends State<Recipeview> {
                 ),
               ),
               Text(
+                //locationTypeToString[currentmenu],
                 "한식",
                 style: TextStyle(
                   fontSize: 12,
@@ -162,6 +164,10 @@ class _RecipeviewState extends State<Recipeview> {
                 exdata[_current]["ex4"],
                 style: TextStyle(fontSize: 12, height: 1.5),
               ),
+              Text(
+                exdata[_current]["ex5"],
+                style: TextStyle(fontSize: 12, height: 1.5),
+              ),
             ],
           ),
           Container(
@@ -176,7 +182,7 @@ class _RecipeviewState extends State<Recipeview> {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text(
-                "Tip",
+                "만드는 법",
                 style: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
@@ -186,13 +192,84 @@ class _RecipeviewState extends State<Recipeview> {
                 height: 10,
               ),
               Text(
-                exdata[_current]["tip"],
+                exdata[_current]["tip1"],
                 style: TextStyle(
                   fontSize: 12,
                   color: Colors.grey,
                   fontWeight: FontWeight.bold,
                 ),
-                textAlign: TextAlign.justify,
+              ),
+              Text(
+                exdata[_current]["tip2"],
+                style: TextStyle(
+                  fontSize: 12,
+                  color: Colors.grey,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              Text(
+                exdata[_current]["tip3"],
+                style: TextStyle(
+                  fontSize: 12,
+                  color: Colors.grey,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              Text(
+                exdata[_current]["tip4"],
+                style: TextStyle(
+                  fontSize: 12,
+                  color: Colors.grey,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              Text(
+                exdata[_current]["tip5"],
+                style: TextStyle(
+                  fontSize: 12,
+                  color: Colors.grey,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              Text(
+                exdata[_current]["tip6"],
+                style: TextStyle(
+                  fontSize: 12,
+                  color: Colors.grey,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              Text(
+                exdata[_current]["tip7"],
+                style: TextStyle(
+                  fontSize: 12,
+                  color: Colors.grey,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              Text(
+                exdata[_current]["tip8"],
+                style: TextStyle(
+                  fontSize: 12,
+                  color: Colors.grey,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              Text(
+                exdata[_current]["tip9"],
+                style: TextStyle(
+                  fontSize: 12,
+                  color: Colors.grey,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              Text(
+                exdata[_current]["tip10"],
+                style: TextStyle(
+                  fontSize: 12,
+                  color: Colors.grey,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
             ],
           )

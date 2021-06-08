@@ -42,15 +42,37 @@ class _HomeState extends State<Home> {
             },
             itemBuilder: (BuildContext context) {
               return [
-                PopupMenuItem(value: "kr", child: Text("한식")),
-                PopupMenuItem(value: "cn", child: Text("중식")),
-                PopupMenuItem(value: "jp", child: Text("일식")),
-                PopupMenuItem(value: "eu", child: Text("양식")),
+                PopupMenuItem(
+                    value: "kr",
+                    child: Text(
+                      "한식",
+                      style: TextStyle(fontWeight: FontWeight.bold),
+                    )),
+                PopupMenuItem(
+                    value: "cn",
+                    child: Text(
+                      "중식",
+                      style: TextStyle(fontWeight: FontWeight.bold),
+                    )),
+                PopupMenuItem(
+                    value: "jp",
+                    child: Text(
+                      "일식",
+                      style: TextStyle(fontWeight: FontWeight.bold),
+                    )),
+                PopupMenuItem(
+                    value: "eu",
+                    child: Text(
+                      "양식",
+                      style: TextStyle(fontWeight: FontWeight.bold),
+                    )),
               ];
             },
             child: Row(
               children: [
-                Text(locationTypeToString[currentmenu]),
+                Text(
+                  locationTypeToString[currentmenu],
+                ),
                 Icon(Icons.arrow_drop_down),
               ],
             ),
