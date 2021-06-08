@@ -19,97 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cb8c274-6d33-4e4e-8318-3bfd81731cfd" name="Default Changelist" comment="recipe1.7">
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/가츠동.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/감바스.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/감자볶음.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/감자양배추전.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/감자전.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/감자조림.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/계란말이.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/계란장조림.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/계란찜.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/고등어무조림.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/고추장불고기.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/궁중떡볶이.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/규카츠.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/김밥.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/김치전.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/김치제육볶음.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/까르보나라.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/깐쇼새우.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/꽃빵.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/꿔바로우.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/닭볶음탕.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/동파육.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/두부부침.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/두부조림.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/떡갈비.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/라따뚜이.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/마라샹궈.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/마라탕.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/마파두부.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/매운찜갈비.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/멘보샤.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/멸치볶음.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/명란젓 오차즈케.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/무생채.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/미역국.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/미트볼.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/바베큐폭찹.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/봉골레.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/부추겉절이.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/부추전.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/불고기.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/비빔밥.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/비프스튜.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/삼선볶음밥.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/새우 딤섬.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/새우튀김.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/소고기무국.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/쇠고기 난자완스.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/시금치나물.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/애호박전.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/야끼 오니기리.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/연근조림.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/오꼬노미야끼.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/오징어볶음.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/와인삼겹살.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/우엉조림.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/유부우동.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/유산슬 덮밥.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/일식계란말이.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/짜장면.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/짬뽕.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/찜닭.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/차슈.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/찹스테이크.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/청경채볶음.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/치즈오믈렛.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/치킨 가라아게.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/치킨그라탕.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/치킨커틀릿.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/콩나물무침.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/크림리조또.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/토마토스파게티.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/통감자 치즈구이.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/팔보채.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/핫윙.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/김치볶음밥.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/김치볶음밥.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/김치찌개.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/김치찌개.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/닭갈비.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/닭갈비.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/돼지고기김치볶음.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/돼지고기김치볶음.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/된장찌개.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/된장찌개.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/떡볶이.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/떡볶이.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/오리주물럭.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/오리주물럭.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/잡채.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/잡채.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/제육볶음.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/assets/images/제육볶음.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/lib/page/home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/lib/page/home.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/lib/page/recipe.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/lib/page/recipe.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/lib/repository/content_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/lib/repository/content_repository.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/lib/repository/explain_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_project-master/my_first_flutter_app-master/lib/repository/explain_repository.dart" afterDir="false" />
-    </list>
+    <list default="true" id="4cb8c274-6d33-4e4e-8318-3bfd81731cfd" name="Default Changelist" comment="recipe1.8" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -172,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622629563713</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="recipe1.8">
+      <created>1623161453767</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1623161453767</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,7 +106,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="recipe1.7" />
-    <option name="LAST_COMMIT_MESSAGE" value="recipe1.7" />
+    <MESSAGE value="recipe1.8" />
+    <option name="LAST_COMMIT_MESSAGE" value="recipe1.8" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621933583532">
@@ -224,13 +142,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="914" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1622988385537" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1622629457367">
+    <state x="461" y="164" key="SettingsEditor" timestamp="1623161547845">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1622629457367" />
-    <state x="1032" y="239" key="Vcs.Push.Dialog.v2" timestamp="1623161439972">
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1623161547845" />
+    <state x="1032" y="239" key="Vcs.Push.Dialog.v2" timestamp="1623161460390">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1623161439972" />
+    <state x="1032" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1623161460390" />
   </component>
 </project>
