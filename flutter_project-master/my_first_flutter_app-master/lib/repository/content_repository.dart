@@ -582,6 +582,57 @@ class Contentrepository {
         "like": "",
       },
     ],
+    "he": [
+      {
+        "cid": "월요일",
+        "image": "assets/images/health.jpg",
+        "name": "월요일",
+        "explain": "건강식",
+        "like": "",
+      },
+      {
+        "cid": "화요일",
+        "image": "assets/images/health.jpg",
+        "name": "화요일",
+        "explain": "건강식",
+        "like": "",
+      },
+      {
+        "cid": "수요일",
+        "image": "assets/images/health.jpg",
+        "name": "수요일",
+        "explain": "건강식",
+        "like": "",
+      },
+      {
+        "cid": "목요일",
+        "image": "assets/images/health.jpg",
+        "name": "목요일",
+        "explain": "건강식",
+        "like": "",
+      },
+      {
+        "cid": "금요일",
+        "image": "assets/images/health.jpg",
+        "name": "금요일",
+        "explain": "건강식",
+        "like": "",
+      },
+      {
+        "cid": "토요일",
+        "image": "assets/images/health.jpg",
+        "name": "토요일",
+        "explain": "건강식",
+        "like": "",
+      },
+      {
+        "cid": "일요일",
+        "image": "assets/images/health.jpg",
+        "name": "일요일",
+        "explain": "건강식",
+        "like": "",
+      },
+    ],
   };
 
   final Map<String, String> locationTypeToString = {
@@ -589,6 +640,7 @@ class Contentrepository {
     "cn": "중식",
     "jp": "일식",
     "eu": "양식",
+    "he": "건강",
   };
 
   Future<List<Map<String, String>>> loadContentsFromLocation(

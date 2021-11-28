@@ -86,7 +86,7 @@ class ManorTemperature extends StatelessWidget {
             children: [
               _makeTempLabelAndBar(),
               SizedBox(width: 7),
-              _makeTempToCharactorIcon(),
+              //_makeTempToCharactorIcon(),
             ],
           ),
           SizedBox(height: 5),

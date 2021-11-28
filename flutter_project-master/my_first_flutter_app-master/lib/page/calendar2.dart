@@ -141,6 +141,7 @@ class _CalendarTwoState extends State<CalendarTwo> {
           }),
       floatingActionButton: FloatingActionButton(
           child: Icon(Icons.add),
+          backgroundColor: Color(0xFFCCCC99),
           onPressed: () => Navigator.push(
               context,
               MaterialPageRoute(

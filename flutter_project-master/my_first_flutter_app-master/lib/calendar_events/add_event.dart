@@ -102,9 +102,10 @@ class _AddEventPageState extends State<AddEventPage> {
                   : Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 16.0),
                       child: Material(
-                        elevation: 5.0,
+                        elevation: 3.0,
                         borderRadius: BorderRadius.circular(30.0),
-                        color: Theme.of(context).primaryColor,
+                        color: Color(0xFFCCCC99),
+                        //color: Theme.of(context).primaryColor,
                         child: MaterialButton(
                           onPressed: () async {
                             if (_formKey.currentState.validate()) {

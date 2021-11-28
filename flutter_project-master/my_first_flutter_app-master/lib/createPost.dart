@@ -4,15 +4,21 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:keyboard_actions/keyboard_actions.dart';
+import 'package:my_first_flutter_app/commons/const.dart';
+import 'package:my_first_flutter_app/commons/utils.dart';
+import 'package:my_first_flutter_app/FB/FBCloudStore.dart';
+import 'package:my_first_flutter_app/FB/FBStorage.dart';
 
 class createPost extends StatefulWidget {
+  MyProfileData myData;
+  createPost({this.myData});
   @override
   _createPostState createState() => _createPostState();
 }
 
 class _createPostState extends State<createPost> {
-  FocusNode writingTextFocus = FocusNode();
   TextEditingController writingTextController = TextEditingController();
+  FocusNode writingTextFocus = FocusNode();
   final FocusNode _nodeText1 = FocusNode();
   bool _isLoading = false;
   File _postImageFile;
@@ -35,7 +41,7 @@ class _createPostState extends State<createPost> {
               return GestureDetector(
                 onTap: () {
                   print('Select Image');
-                  //_getImageAndCrop();
+                  _getImageAndCrop();
                 },
                 child: Container(
                   color: Colors.grey[200],
@@ -61,11 +67,31 @@ class _createPostState extends State<createPost> {
     );
   }
 
+  void _postToFB() async {
+    setState(() {
+      _isLoading = true;
+    });
+    String postID = Utils.getRandomString(8) + Random().nextInt(500).toString();
+    String postImageURL;
+    if (_postImageFile != null) {
+      postImageURL = await FBStorage.uploadPostImages(
+          postID: postID, postImageFile: _postImageFile);
+    }
+    FBCloudStore.sendPostInFirebase(postID, writingTextController.text,
+        widget.myData, postImageURL ?? 'NONE');
+
+    setState(() {
+      _isLoading = false;
+    });
+    Navigator.pop(context);
+  }
+
   Future<void> _sendPostInFirebase(String postContent) async {
     setState(() {
       _isLoading = true;
     });
     Firestore.instance.collection('thread').document().setData({
+      //'postID': postID,
       'userName': 'KimJongSeong',
       'userThumnail': '',
       'postTimeStamp': DateTime.now().millisecondsSinceEpoch,
@@ -167,19 +193,18 @@ class _createPostState extends State<createPost> {
       ),
     );
   }
-}
-/*
-Future<void> _getImageAndCrop() async {
-  File imageFileFromGallery =
-      await ImagePicker.pickImage(source: ImageSource.gallery);
-  if (imageFileFromGallery != null) {
-    File cropImageFile = await Utils.cropImageFile(
-        imageFileFromGallery); //await cropImageFile(imageFileFromGallery);
-    if (cropImageFile != null) {
-      setState(() {
-        _postImageFile = cropImageFile;
-      });
+
+  Future<void> _getImageAndCrop() async {
+    File imageFileFromGallery =
+        await ImagePicker.pickImage(source: ImageSource.gallery);
+    if (imageFileFromGallery != null) {
+      File cropImageFile = await Utils.cropImageFile(
+          imageFileFromGallery); //await cropImageFile(imageFileFromGallery);
+      if (cropImageFile != null) {
+        setState(() {
+          _postImageFile = cropImageFile;
+        });
+      }
     }
   }
 }
-*/

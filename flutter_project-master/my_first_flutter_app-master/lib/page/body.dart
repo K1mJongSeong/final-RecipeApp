@@ -11,7 +11,7 @@ class _BodyState extends State<Body> {
   TextEditingController _name = TextEditingController(text: "김종성");
   TextEditingController PhoneNum = TextEditingController(text: "010-2248-4124");
   TextEditingController Email =
-      TextEditingController(text: "miaer789@naver.com");
+      TextEditingController(text: "JongSeong.kim4124@gmail.com");
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -88,9 +88,9 @@ class _BodyState extends State<Body> {
                                   decoration: BoxDecoration(
                                     shape: BoxShape.circle,
                                     image: DecorationImage(
-                                        image: AssetImage(
-                                            "assets/images/cook.PNG"),
-                                        fit: BoxFit.cover),
+                                        image:
+                                            AssetImage('assets/images/js.png'),
+                                        fit: BoxFit.none),
                                   ),
                                 ),
                               )

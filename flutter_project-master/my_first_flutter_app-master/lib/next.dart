@@ -1,6 +1,9 @@
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:my_first_flutter_app/page/userProfile.dart';
 import 'package:my_first_flutter_app/page/body.dart';
 import 'package:my_first_flutter_app/page/calendar2.dart';
 import 'package:my_first_flutter_app/page/home.dart';
@@ -15,6 +18,8 @@ class Next extends StatefulWidget {
 class _NextState extends State<Next> {
   String currentLocation;
   int _currentPageIndex = 0;
+  //FirebaseMessaging _firebaseMessaging = FirebaseMessaging();
+
   @override
   void initState() {
     super.initState();
@@ -22,6 +27,7 @@ class _NextState extends State<Next> {
   }
 
   Widget build(BuildContext context) {
+    final user = FirebaseAuth.instance.currentUser;
     return Scaffold(
       body: _bodyWidget(),
       bottomNavigationBar: _bottomNavigationWidget(),
@@ -86,16 +92,17 @@ class _NextState extends State<Next> {
   Widget _bodyWidget() {
     switch (_currentPageIndex) {
       case 0:
-        return Home();
+        return Home(); //home.dart
         break;
       case 1:
-        return CalendarTwo();
+        return CalendarTwo(); //calendar2.dart
         break;
-      case 3:
-        return Body();
+      case 2:
+        return Board(); //writePost.dart
         break;
     }
-    return Board();
+    return Body(); //userProfile.dart
+    //return Body(); //writePost.dart
   }
 
   BottomNavigationBarItem _bottomNavigationBarItem(

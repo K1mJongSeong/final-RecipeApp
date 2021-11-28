@@ -1,7 +1,10 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:my_first_flutter_app/FB/FBCloudStore.dart';
 import 'package:my_first_flutter_app/page/recipe.dart';
 import 'package:my_first_flutter_app/repository/content_repository.dart';
+import 'package:my_first_flutter_app/commons/utils.dart';
 
 import '../colors.dart';
 
@@ -10,6 +13,7 @@ final Map<String, String> locationTypeToString = {
   "cn": "중식",
   "jp": "일식",
   "eu": "양식",
+  "he": "건강",
 };
 
 class Home extends StatefulWidget {
@@ -20,6 +24,7 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
+  int _count = 0;
   Widget _appbarWidget() {
     return AppBar(
       title: Image.asset(
@@ -66,6 +71,12 @@ class _HomeState extends State<Home> {
                       "양식",
                       style: TextStyle(fontWeight: FontWeight.bold),
                     )),
+                PopupMenuItem(
+                    value: "he",
+                    child: Text(
+                      "건강",
+                      style: TextStyle(fontWeight: FontWeight.bold),
+                    )),
               ];
             },
             child: Row(
@@ -85,6 +96,7 @@ class _HomeState extends State<Home> {
   String currentmenu;
   String currentLocation;
   Contentrepository contentrepository;
+
   @override
   void initState() {
     super.initState();
@@ -96,8 +108,17 @@ class _HomeState extends State<Home> {
     return contentrepository.loadContentsFromLocation(currentmenu);
   }
 
+  void _updateRecipeLikeCount() async {
+    await FBCloudStore.updateRecipeLikeCount;
+  }
+
+  void _incrementCounter() {
+    setState(() {
+      _count++;
+    });
+  }
+
   _makeDatalist(List<Map<String, String>> data) {
-    int _count = 0;
     bool _islike = true;
     return ListView.separated(
       padding: const EdgeInsets.symmetric(horizontal: 10),
@@ -176,7 +197,9 @@ class _HomeState extends State<Home> {
                                     : Icon(Icons.favorite_border_outlined)),
                                 color: red,
                               ),
-                              Text('좋아요 : $_count'),
+                              Text(
+                                '좋아요 : $_count',
+                              ),
                             ],
                           ),
                         ),
@@ -234,13 +257,17 @@ class _HomeState extends State<Home> {
           children: [
             UserAccountsDrawerHeader(
               currentAccountPicture: CircleAvatar(
-                backgroundImage: AssetImage('assets/images/cook.PNG'),
+                backgroundImage: AssetImage('assets/images/js.png'),
                 backgroundColor: Colors.white,
               ),
-              accountName: Text('김종성'),
-              accountEmail: Text('miaer789@naver.com'),
+              accountName: Text(
+                '김종성',
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ),
+              accountEmail: Text('JongSeong.kim4124@gmail.com',
+                  style: TextStyle(fontWeight: FontWeight.bold)),
               decoration: BoxDecoration(
-                color: Colors.lightGreen[300],
+                color: Color(0xFFCCCC99),
                 borderRadius: BorderRadius.only(
                   bottomLeft: Radius.circular(40.0),
                   bottomRight: Radius.circular(40.0),
