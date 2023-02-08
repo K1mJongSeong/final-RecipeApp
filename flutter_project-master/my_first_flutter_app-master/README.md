@@ -1,16 +1,14 @@
-# my_first_flutter_app
+# Flutter를 이용한 레시피 식단 코칭 시스템
+경북테크노파크 소프트웨어 공모전 참가
+2021.07.01~2021.11.30
 
-A new Flutter application.
+소셜 로그인, 비로그인, 커뮤니티기능, 캘린더, 캘린더 내 메모기능, 프로필 기능, 레시피 기능
 
-## Getting Started
+사용 기술
+Flutter
+Dart
+Python
+Firebase
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+논문
+[쌉싸름한 레시피].pdf](https://github.com/K1mJongSeong/flutter_project/files/10682192/default.pdf)
