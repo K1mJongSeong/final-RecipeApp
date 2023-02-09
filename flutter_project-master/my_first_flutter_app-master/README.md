@@ -13,17 +13,16 @@
 <h1>사용 기술</h1>
 
 
-Flutter
+<img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=spring&logoColor=white"> 
 
 
-Dart
+<img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=spring&logoColor=white"> 
 
 
-Python
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=spring&logoColor=white"> 
 
 
-Firebase
-
+<img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=spring&logoColor=white">
 
 
 <h1>논문</h1>
